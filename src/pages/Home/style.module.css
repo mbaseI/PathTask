@@ -7,7 +7,7 @@
 }
 
 .home__columnContent {
-    @apply relative md:mb-6
+    @apply relative
 }
 
 .home__productInfo {
