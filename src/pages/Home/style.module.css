@@ -1,0 +1,51 @@
+.home {
+    @apply grid grid-cols-1 p-6 mx-auto md:grid-cols-2 md:p-14 md:gap-6;
+}
+
+.home__column {
+    @apply flex flex-col justify-between;
+}
+
+.home__columnContent {
+    @apply relative md:mb-6
+}
+
+.home__productInfo {
+    @apply absolute bottom-2 right-2 bg-white px-3 py-1 rounded shadow font-opensans md:px-4 md:py-3 md:bottom-4 md:right-4
+}
+
+.home__productTitle {
+    @apply text-xs font-extrabold md:text-md md:leading-6
+}
+
+.home__productPrice {
+    @apply text-xs md:text-md md:leading-6
+}
+
+.home__headText {
+    @apply text-2xl mb-6 font-montserrat md:text-3xl;
+}
+
+.home__button {
+    @apply flex items-center bg-black text-white py-3 px-2 mb-6 w-max font-opensans tracking-wider gap-3 font-bold text-sm md:py-3 md:px-9 md:font-extrabold md:text-md md:leading-6;
+}
+
+.home__buttonIcon {
+    @apply w-4 h-4;
+}
+
+.home__image {
+    @apply w-full aspect-square object-cover;
+}
+
+.home__description {
+    @apply text-pathGray mb-6 text-sm font-avenir md:text-xl md:font-normal md:leading-[1.875rem] md:font-opensans;
+}
+
+.home__navbutton {
+    @apply inline-block mt-2 text-sm py-1 border-b-2 border-black font-extrabold font-opensans md:text-md md:leading-10;
+}
+
+.xsHidden {
+    @apply hidden md:block
+}
